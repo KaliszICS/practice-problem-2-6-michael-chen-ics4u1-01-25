@@ -11,7 +11,7 @@ class Notes {
 			int key = numArray[i];
 			int index = i - 1;
 			while (index >= 0 && numArray[index] > key) {
-				numArray[index+1] = numArray[index];
+				numArray[index + 1] = numArray[index];
 				index--;
 			}
 			numArray[index + 1] = key;
